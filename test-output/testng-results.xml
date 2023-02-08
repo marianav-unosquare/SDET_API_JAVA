@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Sucess 200 validation]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-02-07T19:30:04 CST" name="Default suite" finished-at="2023-02-07T19:30:06 CST" duration-ms="1954">
+    <groups>
+    </groups>
+    <test started-at="2023-02-07T19:30:04 CST" name="Default test" finished-at="2023-02-07T19:30:06 CST" duration-ms="1954">
+      <class name="com.unosquare.FirstAPIJava">
+        <test-method signature="f()[pri:0, instance:com.unosquare.FirstAPIJava@62e7f11d]" started-at="2023-02-07T19:30:04 CST" name="f" finished-at="2023-02-07T19:30:06 CST" duration-ms="1909" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Sucess 200 validation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.unosquare.FirstAPIJava -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
