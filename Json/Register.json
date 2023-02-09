@@ -1,5 +1,12 @@
 {
-"email":"eve.holt@reqres.in",
-"password":"pistol"
+	"data": [
+		{
+			"name": "morpheus",
+			"job": "leader"
+		},
+		{
+			"name": "Grimes",
+			"job": "singer"
+		}
+	]
 }
-

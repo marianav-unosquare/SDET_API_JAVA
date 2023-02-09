@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.unosquare.FirstAPIJava">
+      <class name="com.unosquare.ExamplePostCreate">
         <methods>
-          <include name="g"/>
+          <include name="a"/>
         </methods>
-      </class> <!-- com.unosquare.FirstAPIJava -->
+      </class> <!-- com.unosquare.ExamplePostCreate -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
