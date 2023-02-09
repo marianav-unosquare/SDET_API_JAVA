@@ -1,22 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
     <line>
       <![CDATA[Sucess 200 validation]]>
     </line>
+    <line>
+      <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-02-07T19:30:04 CST" name="Default suite" finished-at="2023-02-07T19:30:06 CST" duration-ms="1954">
+  <suite started-at="2023-02-08T00:23:51 CST" name="Default suite" finished-at="2023-02-08T00:23:55 CST" duration-ms="4085">
     <groups>
     </groups>
-    <test started-at="2023-02-07T19:30:04 CST" name="Default test" finished-at="2023-02-07T19:30:06 CST" duration-ms="1954">
+    <test started-at="2023-02-08T00:23:51 CST" name="Default test" finished-at="2023-02-08T00:23:55 CST" duration-ms="4085">
       <class name="com.unosquare.FirstAPIJava">
-        <test-method signature="f()[pri:0, instance:com.unosquare.FirstAPIJava@62e7f11d]" started-at="2023-02-07T19:30:04 CST" name="f" finished-at="2023-02-07T19:30:06 CST" duration-ms="1909" status="PASS">
+        <test-method signature="f()[pri:0, instance:com.unosquare.FirstAPIJava@68c72235]" started-at="2023-02-08T00:23:51 CST" name="f" finished-at="2023-02-08T00:23:54 CST" duration-ms="3013" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="fixCode()[pri:0, instance:com.unosquare.FirstAPIJava@68c72235]" started-at="2023-02-08T00:23:54 CST" name="fixCode" finished-at="2023-02-08T00:23:54 CST" duration-ms="292" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Sucess 200 validation]]>
             </line>
           </reporter-output>
-        </test-method> <!-- f -->
+        </test-method> <!-- fixCode -->
+        <test-method signature="g()[pri:0, instance:com.unosquare.FirstAPIJava@68c72235]" started-at="2023-02-08T00:23:54 CST" name="g" finished-at="2023-02-08T00:23:55 CST" duration-ms="286" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[{"data":{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method signature="post_1()[pri:0, instance:com.unosquare.FirstAPIJava@68c72235]" started-at="2023-02-08T00:23:55 CST" name="post_1" finished-at="2023-02-08T00:23:55 CST" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post_1 -->
       </class> <!-- com.unosquare.FirstAPIJava -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
