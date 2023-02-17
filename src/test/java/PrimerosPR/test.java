@@ -1,4 +1,4 @@
-package com.unosquare;
+package PrimerosPR;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

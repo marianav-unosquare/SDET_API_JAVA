@@ -8,5 +8,10 @@
 			"name": "Grimes",
 			"job": "singer"
 		}
-	]
+	],
+	"login": 
+		{
+			"email": "eve.holt@reqres.in",
+			"password": "cityslicka"
+		}
 }

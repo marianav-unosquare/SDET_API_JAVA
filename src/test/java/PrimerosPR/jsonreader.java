@@ -1,4 +1,4 @@
-package com.unosquare;
+package PrimerosPR;
 
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -26,7 +26,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class ExamplePostCreate {
+public class jsonreader {
 
 	@Test
 	public void a() throws IOException, ParseException {

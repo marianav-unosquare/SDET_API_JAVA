@@ -1,4 +1,4 @@
-package com.unosquare;
+package PrimerosPR;
 
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -25,6 +25,7 @@ public class FirstAPIJava {
 		baseURI = "https://reqres.in/api/";
 		RequestSpecification httpRequest = given();
 		Response response = httpRequest.get("/users/2");
+		
 		
 		response.then().assertThat().statusCode(200)
 		.contentType(ContentType.JSON)
@@ -77,9 +78,6 @@ public class FirstAPIJava {
 	@Test
 	public void post_1() {
 	//Snippet on how to implement FileReader and convert it to Json Object
-	
-		
-
 		
 		/*
 		JSONParser json = new JSONParser();
@@ -103,6 +101,47 @@ public class FirstAPIJava {
 		
 	}
 	
+	
+	/*public void apicore() throws Exception {
+	JSONParser jsonParser = new JSONParser();
+	FileReader reader = new FileReader(".\\Json\\Register.json");
+	Object obj = jsonParser.parse(reader);
+	JSONObject jsonObj = (JSONObject) obj;
+
+	// Variable to store key, value
+	HashMap<String, String> map = new HashMap<String, String>();
+	JSONObject ob = new JSONObject();
+
+	// Extract values from JSONArray
+	JSONArray array = (JSONArray) jsonObj.get("data");
+	for (int i = 0; i < array.size(); i++) {
+		JSONObject data = (JSONObject) array.get(i);
+		String name = (String) data.get("name");
+		String job = (String) data.get("job");
+
+		System.out.println("Array JsonData : " + i);
+		System.out.println("name : " + name);
+		System.out.println("job : " + job);
+
+		map.put("name", name);
+		map.put("job", job);
+
+		// Iterate to separate key and value
+		Iterator it = map.entrySet().iterator();
+		while (it.hasNext()) {
+			Map.Entry pairs = (Map.Entry) it.next();
+			System.out.println(pairs.getKey() + " = " + pairs.getValue());
+			// Fill JSON object wit pair and value separately
+			ob.put(pairs.getKey(), pairs.getValue());
+		}
+
+		baseURI = "https://reqres.in/";
+		given().log().all().header("Content-Type", "application/json").body(ob.toJSONString()).when().post("/users")
+				.then().toString();
+
+	}
+}*/
+
 	
 }
 	

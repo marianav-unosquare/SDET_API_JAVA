@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.unosquare.ExamplePostCreate">
+      <class name="com.unosquare.PRFinal.testPostUser">
         <methods>
-          <include name="a"/>
+          <include name="validatePostAddUser"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.unosquare.ExamplePostCreate -->
+      </class> <!-- com.unosquare.PRFinal.testPostUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
