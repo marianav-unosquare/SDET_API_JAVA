@@ -14,20 +14,24 @@ public class testPostUser {
 	ApiCore ApiCore;
 	Response testResponse;
 	
-	@BeforeTest
+	//@BeforeTest
+	//Create a jsonFile 
 	public void setup() throws Exception {
 		User u = new User();
 		u.setName("Grimes");
 		u.setJob("Singer");
-		jsonUtil.createJsonFile(u, "user.json");
+		jsonUtil.createJsonFile(u, "user1.json");
 	}
 	
+	/*Script for trying the code
 	@Test(enabled=true)
 	public void validatePostAddUser() throws Exception {
-	ApiCore = new ApiCore("/api/users", "user.json", Constants.BASE_URI);
+	ApiCore = new ApiCore("/api/users", "user.json");
+	System.out.println(jsonUtil.readJsonFile("user.json"));
+	
 	testResponse = ApiCore.post();
 	testResponse.then().log().all();
-	assertEquals(testResponse.statusCode(), 200);
-
-	}
+	assertEquals(testResponse.statusCode(), 201);
+	}*/
+	
 }

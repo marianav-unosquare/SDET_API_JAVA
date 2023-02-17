@@ -1,6 +1,5 @@
 package com.unosquare.PRFinal;
 
-
 import java.util.Map;
 import com.unosqare.pojo.CustomRequest;
 import com.unosqare.pojo.jsonUtil;
@@ -12,22 +11,18 @@ public class ApiCore {
 	private CustomRequest customRequest;
 	
 	//Constructor for Get requests
-	public ApiCore(String resource, String baseURI) {
-		setBaseURI(baseURI);
+	public ApiCore(String resource) {
+
 		customRequest = new CustomRequest(resource);
 	}
 	
 	//Constructor for POST and PUT
-	public ApiCore(String resource, String fileName, String baseURI) throws Exception {
-		setBaseURI(baseURI);
+	public ApiCore(String resource, String fileName) throws Exception {
+
 		String body = jsonUtil.readJsonFile(fileName);
 		customRequest = new CustomRequest(resource, body);
 	}
 	
-	public void setBaseURI(String baseURI) {
-		baseURI = baseURI;
-	}
-
 	public Response post() {
 		response = customRequest.post();
 		return response;

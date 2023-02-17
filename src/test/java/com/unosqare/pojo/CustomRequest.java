@@ -2,10 +2,10 @@ package com.unosqare.pojo;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import io.restassured.RestAssured;
+import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import utils.Constants;
 
 public class CustomRequest {
 	private String resource;
@@ -13,9 +13,11 @@ public class CustomRequest {
 	private Map<String, String> headers = new HashMap<>();
 	private Map<String, String> queryParams = new HashMap<>();
 	
+	//Constructor
 	public CustomRequest(String resource) {
 		this.resource = resource;
-		httpRequest = RestAssured.given();
+		baseURI= Constants.BASE_URI ;
+		httpRequest = given();
 	}
 	
 	@SuppressWarnings("serial")

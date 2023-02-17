@@ -1,0 +1,42 @@
+[
+{
+	"skills": [
+		"java",
+		"Mocha/Chai",
+		"node",
+		"JavaScript"
+	],
+	"name": "petter rabbit",
+	"position": [
+		"Actor",
+		"CFO",
+		"Writer"
+	],
+	"salary": {
+		"2018": 80000,
+		"2012": 90000,
+		"2010": 100000
+	},
+	"age": 99
+},
+{
+	"skills": [
+		"java",
+		"Mocha/Chai",
+		"node",
+		"JavaScript"
+	],
+	"name": "poppy bunny",
+	"position": [
+		"Singer",
+		"CEO",
+		"Dancer"
+	],
+	"salary": {
+		"2021": 85000,
+		"2022": 95000,
+		"2023": 105000
+	},
+	"age": 66
+}
+]

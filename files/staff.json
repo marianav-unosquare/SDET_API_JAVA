@@ -1,0 +1,20 @@
+{
+	"skills": [
+		"java",
+		"Mocha/Chai",
+		"node",
+		"JavaScript"
+	],
+	"name": "petter rabbit",
+	"position": [
+		"Actor",
+		"CFO",
+		"Writer"
+	],
+	"salary": {
+		"2018": 80000,
+		"2012": 90000,
+		"2010": 100000
+	},
+	"age": 99
+}
