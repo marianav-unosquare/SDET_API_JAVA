@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Feb 17 15:08:30 CST 2023</td>
+<td>Started on:</td><td>Fri Feb 17 16:12:09 CST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7521 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8443 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,44 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.unosquare.PRFinal.TestMethods.validateGetUnknownList()'><b>validateGetUnknownList</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-1585189917" onClick='toggleBox("Output-1585189917", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.unosquare.PRFinal.TestMethods.validateSuccessfullPostRegister()'><b>validateSuccessfullPostRegister</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-661440732" onClick='toggleBox("Output-661440732", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1585189917" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1585189917">
+<a href="#Output-661440732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-661440732">
+PostRegister status code: 200<br/>
+PostRegister response body: {
+    "id": 4,
+    "token": "QpwL5tke4Pnpja7X4"
+}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
+<tr>
+<td title='com.unosquare.PRFinal.TestMethods.validatePutUser()'><b>validatePutUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-829956506" onClick='toggleBox("Output-829956506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-829956506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-829956506">
+GetUser with id=2 status code: 200<br/>
+GetUser with id=2 response body: {
+    "name": "morpheus",
+    "job": "zion resident",
+    "updatedAt": "2023-02-17T22:12:05.289Z"
+}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
+<tr>
+<td title='com.unosquare.PRFinal.TestMethods.validateGetUnknownList()'><b>validateGetUnknownList</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-1135555866" onClick='toggleBox("Output-1135555866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1135555866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1135555866">
 GetUnknownList code: 404<br/>
 GetUnknownList response body: <html lang="en">
   <head>
@@ -248,17 +281,32 @@ GetUnknownList response body: <html lang="en">
 <td>3</td>
 <td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
 <tr>
-<td title='com.unosquare.PRFinal.TestMethods.validatePostLogin()'><b>validatePostLogin</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-48390515" onClick='toggleBox("Output-48390515", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.unosquare.PRFinal.TestMethods.validateUnsuccessfullPostRegister()'><b>validateUnsuccessfullPostRegister</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-438660480" onClick='toggleBox("Output-438660480", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-48390515" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-48390515">
+<a href="#Output-438660480" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-438660480">
+PostRegister status code: 400<br/>
+PostRegister response body: {
+    "error": "Missing password"
+}<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
+<tr>
+<td title='com.unosquare.PRFinal.TestMethods.validatePostLogin()'><b>validatePostLogin</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-666769352" onClick='toggleBox("Output-666769352", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666769352" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666769352">
 PostLogin status code: 201<br/>
 PostLogin response body: {
     "password": "cityslicka",
     "email": "eve.holt@reqres.in",
-    "id": "209",
-    "createdAt": "2023-02-17T21:08:25.212Z"
+    "id": "611",
+    "createdAt": "2023-02-17T22:12:04.591Z"
 }<br/>
 </div>
 </td>
@@ -267,10 +315,10 @@ PostLogin response body: {
 <td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
 <tr>
 <td title='com.unosquare.PRFinal.TestMethods.validateGetUser()'><b>validateGetUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-232200992" onClick='toggleBox("Output-232200992", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-1988062951" onClick='toggleBox("Output-1988062951", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-232200992" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-232200992">
+<a href="#Output-1988062951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1988062951">
 GetUser with id=2 status code: 200<br/>
 GetUser with id=2 response body: {
     "data": {
@@ -291,39 +339,17 @@ GetUser with id=2 response body: {
 <td>0</td>
 <td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
 <tr>
-<td title='com.unosquare.PRFinal.TestMethods.validateGetUsers()'><b>validateGetUsers</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-1476484694" onClick='toggleBox("Output-1476484694", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.unosquare.PRFinal.TestMethods.validatePostCreateUser()'><b>validatePostCreateUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-491825098" onClick='toggleBox("Output-491825098", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1476484694" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1476484694">
-GetUsers status code: 200<br/>
-GetUsers response body: {
-    "data": {
-        "id": 2,
-        "email": "janet.weaver@reqres.in",
-        "first_name": "Janet",
-        "last_name": "Weaver",
-        "avatar": "https://reqres.in/img/faces/2-image.jpg"
-    },
-    "support": {
-        "url": "https://reqres.in/#support-heading",
-        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
-    }
-}<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
-<tr>
-<td title='com.unosquare.PRFinal.TestMethods.validateUnsuccessfullPostRegister()'><b>validateUnsuccessfullPostRegister</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-1357597228" onClick='toggleBox("Output-1357597228", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1357597228" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1357597228">
-PostRegister status code: 400<br/>
-PostRegister response body: {
-    "error": "Missing password"
+<a href="#Output-491825098" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-491825098">
+PostCreateUsers status code: 201<br/>
+PostCreateUsers response body: {
+    "name": "Grimes",
+    "job": "Singer",
+    "id": "282",
+    "createdAt": "2023-02-17T22:12:03.883Z"
 }<br/>
 </div>
 </td>
@@ -332,10 +358,10 @@ PostRegister response body: {
 <td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
 <tr>
 <td title='com.unosquare.PRFinal.TestMethods.validateGetUnknownUser()'><b>validateGetUnknownUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-1412752396" onClick='toggleBox("Output-1412752396", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-994632067" onClick='toggleBox("Output-994632067", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1412752396" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1412752396">
+<a href="#Output-994632067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-994632067">
 GetUnknown status code: 404<br/>
 GetUnknown response body: <html lang="en">
   <head>
@@ -504,50 +530,24 @@ GetUnknown response body: <html lang="en">
 <td>0</td>
 <td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
 <tr>
-<td title='com.unosquare.PRFinal.TestMethods.validatePostCreateUser()'><b>validatePostCreateUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-45320991" onClick='toggleBox("Output-45320991", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.unosquare.PRFinal.TestMethods.validateGetUsers()'><b>validateGetUsers</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
+<a href="#Output-1295803795" onClick='toggleBox("Output-1295803795", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-45320991" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-45320991">
-PostCreateUsers status code: 201<br/>
-PostCreateUsers response body: {
-    "name": "Grimes",
-    "job": "Singer",
-    "id": "697",
-    "createdAt": "2023-02-17T21:08:24.660Z"
-}<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
-<tr>
-<td title='com.unosquare.PRFinal.TestMethods.validateSuccessfullPostRegister()'><b>validateSuccessfullPostRegister</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-1706741895" onClick='toggleBox("Output-1706741895", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1706741895" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1706741895">
-PostRegister status code: 200<br/>
-PostRegister response body: {
-    "id": 4,
-    "token": "QpwL5tke4Pnpja7X4"
-}<br/>
-</div>
-</td>
-<td></td>
-<td>0</td>
-<td>com.unosquare.PRFinal.TestMethods@69e1dd28</td></tr>
-<tr>
-<td title='com.unosquare.PRFinal.TestMethods.validatePutUser()'><b>validatePutUser</b><br>Test class: com.unosquare.PRFinal.TestMethods<br/>
-<a href="#Output-2004683715" onClick='toggleBox("Output-2004683715", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2004683715" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2004683715">
-GetUser with id=2 status code: 200<br/>
-GetUser with id=2 response body: {
-    "name": "morpheus",
-    "job": "zion resident",
-    "updatedAt": "2023-02-17T21:08:25.720Z"
+<a href="#Output-1295803795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1295803795">
+GetUsers status code: 200<br/>
+GetUsers response body: {
+    "data": {
+        "id": 2,
+        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
 }<br/>
 </div>
 </td>

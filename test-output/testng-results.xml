@@ -376,8 +376,8 @@
       <![CDATA[PostCreateUsers response body: {
     "name": "Grimes",
     "job": "Singer",
-    "id": "697",
-    "createdAt": "2023-02-17T21:08:24.660Z"
+    "id": "282",
+    "createdAt": "2023-02-17T22:12:03.883Z"
 }]]>
     </line>
     <line>
@@ -387,8 +387,8 @@
       <![CDATA[PostLogin response body: {
     "password": "cityslicka",
     "email": "eve.holt@reqres.in",
-    "id": "209",
-    "createdAt": "2023-02-17T21:08:25.212Z"
+    "id": "611",
+    "createdAt": "2023-02-17T22:12:04.591Z"
 }]]>
     </line>
     <line>
@@ -398,7 +398,7 @@
       <![CDATA[GetUser with id=2 response body: {
     "name": "morpheus",
     "job": "zion resident",
-    "updatedAt": "2023-02-17T21:08:25.720Z"
+    "updatedAt": "2023-02-17T22:12:05.289Z"
 }]]>
     </line>
     <line>
@@ -419,12 +419,12 @@
 }]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-02-17T15:08:30 CST" name="Default suite" finished-at="2023-02-17T15:08:37 CST" duration-ms="7521">
+  <suite started-at="2023-02-17T16:12:09 CST" name="Default suite" finished-at="2023-02-17T16:12:17 CST" duration-ms="8443">
     <groups>
     </groups>
-    <test started-at="2023-02-17T15:08:30 CST" name="Default test" finished-at="2023-02-17T15:08:37 CST" duration-ms="7521">
+    <test started-at="2023-02-17T16:12:09 CST" name="Default test" finished-at="2023-02-17T16:12:17 CST" duration-ms="8443">
       <class name="com.unosquare.PRFinal.TestMethods">
-        <test-method signature="validateGetUnknownList()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:30 CST" name="validateGetUnknownList" finished-at="2023-02-17T15:08:34 CST" duration-ms="3795" status="PASS">
+        <test-method signature="validateGetUnknownList()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:09 CST" name="validateGetUnknownList" finished-at="2023-02-17T16:12:13 CST" duration-ms="3781" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[GetUnknownList code: 404]]>
@@ -594,7 +594,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateGetUnknownList -->
-        <test-method signature="validateGetUnknownUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:34 CST" name="validateGetUnknownUser" finished-at="2023-02-17T15:08:34 CST" duration-ms="510" status="PASS">
+        <test-method signature="validateGetUnknownUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:13 CST" name="validateGetUnknownUser" finished-at="2023-02-17T16:12:13 CST" duration-ms="604" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[GetUnknown status code: 404]]>
@@ -764,7 +764,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateGetUnknownUser -->
-        <test-method signature="validateGetUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:34 CST" name="validateGetUser" finished-at="2023-02-17T15:08:35 CST" duration-ms="250" status="PASS">
+        <test-method signature="validateGetUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:13 CST" name="validateGetUser" finished-at="2023-02-17T16:12:14 CST" duration-ms="361" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[GetUser with id=2 status code: 200]]>
@@ -786,7 +786,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateGetUser -->
-        <test-method signature="validateGetUsers()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:35 CST" name="validateGetUsers" finished-at="2023-02-17T15:08:35 CST" duration-ms="196" status="PASS">
+        <test-method signature="validateGetUsers()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:14 CST" name="validateGetUsers" finished-at="2023-02-17T16:12:14 CST" duration-ms="299" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[GetUsers status code: 200]]>
@@ -808,7 +808,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateGetUsers -->
-        <test-method signature="validatePostCreateUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:35 CST" name="validatePostCreateUser" finished-at="2023-02-17T15:08:35 CST" duration-ms="599" status="PASS">
+        <test-method signature="validatePostCreateUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:14 CST" name="validatePostCreateUser" finished-at="2023-02-17T16:12:15 CST" duration-ms="750" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostCreateUsers status code: 201]]>
@@ -817,13 +817,13 @@
               <![CDATA[PostCreateUsers response body: {
     "name": "Grimes",
     "job": "Singer",
-    "id": "697",
-    "createdAt": "2023-02-17T21:08:24.660Z"
+    "id": "282",
+    "createdAt": "2023-02-17T22:12:03.883Z"
 }]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatePostCreateUser -->
-        <test-method signature="validatePostLogin()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:35 CST" name="validatePostLogin" finished-at="2023-02-17T15:08:36 CST" duration-ms="506" status="PASS">
+        <test-method signature="validatePostLogin()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:15 CST" name="validatePostLogin" finished-at="2023-02-17T16:12:15 CST" duration-ms="711" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostLogin status code: 201]]>
@@ -832,13 +832,13 @@
               <![CDATA[PostLogin response body: {
     "password": "cityslicka",
     "email": "eve.holt@reqres.in",
-    "id": "209",
-    "createdAt": "2023-02-17T21:08:25.212Z"
+    "id": "611",
+    "createdAt": "2023-02-17T22:12:04.591Z"
 }]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatePostLogin -->
-        <test-method signature="validatePutUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:36 CST" name="validatePutUser" finished-at="2023-02-17T15:08:36 CST" duration-ms="514" status="PASS">
+        <test-method signature="validatePutUser()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:15 CST" name="validatePutUser" finished-at="2023-02-17T16:12:16 CST" duration-ms="624" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[GetUser with id=2 status code: 200]]>
@@ -847,12 +847,12 @@
               <![CDATA[GetUser with id=2 response body: {
     "name": "morpheus",
     "job": "zion resident",
-    "updatedAt": "2023-02-17T21:08:25.720Z"
+    "updatedAt": "2023-02-17T22:12:05.289Z"
 }]]>
             </line>
           </reporter-output>
         </test-method> <!-- validatePutUser -->
-        <test-method signature="validateSuccessfullPostRegister()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:36 CST" name="validateSuccessfullPostRegister" finished-at="2023-02-17T15:08:37 CST" duration-ms="508" status="PASS">
+        <test-method signature="validateSuccessfullPostRegister()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:16 CST" name="validateSuccessfullPostRegister" finished-at="2023-02-17T16:12:17 CST" duration-ms="604" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostRegister status code: 200]]>
@@ -865,7 +865,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- validateSuccessfullPostRegister -->
-        <test-method signature="validateUnsuccessfullPostRegister()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T15:08:37 CST" name="validateUnsuccessfullPostRegister" finished-at="2023-02-17T15:08:37 CST" duration-ms="508" status="PASS">
+        <test-method signature="validateUnsuccessfullPostRegister()[pri:0, instance:com.unosquare.PRFinal.TestMethods@69e1dd28]" started-at="2023-02-17T16:12:17 CST" name="validateUnsuccessfullPostRegister" finished-at="2023-02-17T16:12:17 CST" duration-ms="613" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[PostRegister status code: 400]]>
