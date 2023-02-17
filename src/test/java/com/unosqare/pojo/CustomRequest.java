@@ -10,8 +10,8 @@ import utils.Constants;
 public class CustomRequest {
 	private String resource;
 	private RequestSpecification httpRequest;
-	private Map<String, String> headers = new HashMap<>();
-	private Map<String, String> queryParams = new HashMap<>();
+	private Map<String, String> headers = new HashMap<String, String>();
+	private Map<String, String> queryParams = new HashMap<String, String>();
 	
 	//Constructor
 	public CustomRequest(String resource) {
